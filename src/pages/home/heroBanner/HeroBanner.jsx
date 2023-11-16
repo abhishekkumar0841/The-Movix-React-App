@@ -35,7 +35,7 @@ const HeroBanner = () => {
   return (
     <div className="heroBanner">
       <div className="backdrop-image">
-        <Img src={background} />
+        <Img src={background.toString()} />
       </div>
 
       <div className="opacityLayer"></div>
